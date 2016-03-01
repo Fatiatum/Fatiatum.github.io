@@ -83,6 +83,7 @@
 
 	p {
 		line-height: 1.5;
+		margin-left: 10px;
 	}
 
 	h1, h2, h3, h4, h5, h6{
@@ -573,8 +574,9 @@
 
 	#about-us .about-us{
 		text-align: justify;
-		padding-left: 35%;
+		padding-left: 25%;
 		padding-top: 27%;
+		padding-right: 13%;
 	}
 
 	#about-us .about-us h4{
@@ -1089,9 +1091,23 @@
 
 	#main-photo{
 		border-radius: 30px;
-		width: 150%;
-		margin-top: 35%;
+		width: 100%;
+		margin: 50% 25%;
+	}
+
+	@media only screen and (max-width: 500px){
+		#main-photo{
+			margin: 30% 0%;
+			margin-bottom: -5%;
+
+		}
 	}
 
 
+	#title{
+		font-size: 150%;
+	}
 
+	#skills{
+		text-align: justify;
+	}
