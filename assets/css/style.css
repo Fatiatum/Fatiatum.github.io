@@ -1812,3 +1812,14 @@ Icon for all respective meta
     padding: 5px;
     box-shadow: 0 0px 0px 1px #eee;
 }
+
+.custom-bullet li:before{
+        /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 15px;
+    float: left;
+    
+    margin-right: 10px;
+    color: #CCCCCC;
+}
