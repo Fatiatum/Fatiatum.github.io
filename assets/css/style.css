@@ -1803,7 +1803,7 @@ Icon for all respective meta
 
 .custom-bullet li:before{
         /*Using a Bootstrap glyphicon as the bullet point*/
-    content: "\e080";
+    content: "\e254";
     font-family: 'Glyphicons Halflings';
     font-size: 15px;
     float: left;
